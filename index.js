@@ -12,7 +12,7 @@ app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
 
-const token = "5709440331:AAGYuSnXaJtfqD2Or9PWnAVv2T27_mHHbN4";
+const token = "TOKEN";
 
 const bot = new TelegramBot(token, { polling: true });
 
